@@ -26,4 +26,14 @@ This is a markdown editor that offers a split screen live preview and character 
 4. What is the difference between local repository and remote repository?
     - Local repository is stored on our local machine, remote repository is stored on GitHub
 
+### Quiz 2
+1. What does `display: flex` do?
+    - `display: flex` changes an element to use flex box styling, meaning that it will change size dynamically to fit a given space
+2. What is a media query?
+    - A media query is a CSS function that allows us to change the style of an element based on a condition such as screen dimensions
+3. Why should responsive design be handled in CSS, not JavaScript?
+    - CSS is faster and has all of the built-in features for responsive design, while JavaScript can be made to do responsive design, it is not designed for it
+4. What happens if media query is placed before base styles?
+    - If a media query is placed before base styles then the base styles override it and the media query never applies its styling
+
 
