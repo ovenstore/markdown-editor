@@ -2,13 +2,17 @@
 This is a markdown editor
 
 ### Project Description
-- x
+This is a markdown editor that offers a split screen live preview and character counter that persists via local storage.
 
 ### How to Run Locally
 - x
 
 ### Feature List
-- x
+- Notes persist across page refresh and browser restart
+- Toggleable light/dark theme which persists across page refresh and browser restart
+- Live preview
+- Live character counter
+- Responsive to different screen sizes including mobile and desktop
 
 # Quiz Responses
 
