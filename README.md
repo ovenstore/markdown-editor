@@ -36,4 +36,12 @@ This is a markdown editor that offers a split screen live preview and character 
 4. What happens if media query is placed before base styles?
     - If a media query is placed before base styles then the base styles override it and the media query never applies its styling
 
-
+### Quiz 3
+1. What is the difference between `data` and `computed` in Vue?
+    - 
+2. Why should we not manipulate DOM manually in Vue?
+    - 
+3. What does `v-html` do?
+    - 
+4. Why must we strip HTML before counting characters?
+    - 

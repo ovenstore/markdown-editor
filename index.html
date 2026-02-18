@@ -12,16 +12,19 @@
 
 <body>
     <div id="app" class="editor-container">
-        <textarea id="input" placeholder="Type here..."></textarea>
+        <textarea id="input" placeholder= "Type here..." v-model="message"></textarea>
 
-        <div id="output"></div>
+        <div id="output" v-html="htmlOutput"></div>
 
-        <div id="counter">12</div>
+        <div id="counter" v-html="charCount"></div>
 
         <span id="themeToggle" class="material-icons"> dark_mode </span>
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
+
+
