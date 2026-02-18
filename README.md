@@ -38,10 +38,20 @@ This is a markdown editor that offers a split screen live preview and character 
 
 ### Quiz 3
 1. What is the difference between `data` and `computed` in Vue?
-    - 
+    - `data` stores raw values which may change and `computed` stores values which are derived from data
 2. Why should we not manipulate DOM manually in Vue?
-    - 
+    - Vue uses its own virtual DOM which will likely override manual changes
 3. What does `v-html` do?
-    - 
+    - `v-html` injects HTML tags and text into an existing HTML element
 4. Why must we strip HTML before counting characters?
-    - 
+    - If we do not strip HTML, we will have a much higher character count because we will count all of the HTML tags
+
+### Quiz 4
+1. What is localStorage?
+    - localStorage allows websites to store data on the user's machine such that information can persist across page refreshes and browser restarts
+2. When does `mounted()` run?
+    - `mounted()` runs after the element has been created and inserted into the page HTML
+3. What is a Vue watcher?
+    - A watcher is a feature that monitors a property and can respond when that property changes, such as the input field in our markdown-editor example
+4. Why should theme state also be persisted?
+    - Theme state should be persisted so that the user doesn't need to change it every time they visit the website or refresh the page
